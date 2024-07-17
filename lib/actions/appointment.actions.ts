@@ -25,7 +25,7 @@ export const createAppointment = async (
       APPOINTMENT_COLLECTION_ID!,
       ID.unique(),
       
-        appointment,
+        appointment
         // patient:[appointment.patient]
         
         
