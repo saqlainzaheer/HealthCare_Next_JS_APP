@@ -24,12 +24,12 @@ export const createAppointment = async (
       DATABASE_ID!,
       APPOINTMENT_COLLECTION_ID!,
       ID.unique(),
-      {
-        ...appointment,
-        patient:[appointment.patient]
+      
+        appointment,
+        // patient:[appointment.patient]
         
         
-      }
+      
     );
 
     revalidatePath("/admin");
