@@ -1,11 +1,11 @@
-# FROM node:latest
+FROM node:latest
 
-# WORKDIR /app
+WORKDIR /app
 
-# COPY . .
+COPY . .
 
 
 
-# EXPOSE 8000
+EXPOSE 8000
 
-# ENTRYPOINT [ "npm" ,"run", "dev"]
+ENTRYPOINT [ "npm" ,"run", "dev"]
